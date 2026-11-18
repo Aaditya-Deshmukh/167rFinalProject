@@ -1,0 +1,8 @@
+"","Age at enrollment","Admission grade (0-200)","1st-sem grade (0-20)","2nd-sem grade (0-20)","1st-sem units passed","2nd-sem units passed","Unemployment rate (%)"
+"Age at enrollment",1,-0.112,-0.243,-0.247,-0.204,-0.222,0.011
+"Admission grade (0-200)",-0.112,1,0.229,0.209,0.112,0.111,0.024
+"1st-sem grade (0-20)",-0.243,0.229,1,0.79,0.651,0.636,0.037
+"2nd-sem grade (0-20)",-0.247,0.209,0.79,1,0.682,0.711,0.035
+"1st-sem units passed",-0.204,0.112,0.651,0.682,1,0.909,0.062
+"2nd-sem units passed",-0.222,0.111,0.636,0.711,0.909,1,0.064
+"Unemployment rate (%)",0.011,0.024,0.037,0.035,0.062,0.064,1

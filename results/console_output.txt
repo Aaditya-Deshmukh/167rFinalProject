@@ -1,0 +1,41 @@
+Students analysed: 3630 
+
+Graduate  Dropout 
+    2209     1421 
+
+--- Continuous variables: Wilcoxon rank-sum (Graduate vs Dropout) ---
+                Variable Median_Graduate Median_Dropout Mean_Graduate
+       Age at enrollment            19.0           23.0         21.80
+ Admission grade (0-200)           127.0          124.0        129.00
+    1st-sem grade (0-20)            13.0           10.9         12.60
+    2nd-sem grade (0-20)            13.0            0.0         12.70
+    1st-sem units passed             6.0            2.0          6.23
+    2nd-sem units passed             6.0            0.0          6.18
+   Unemployment rate (%)            11.1           11.1         11.60
+ Mean_Dropout Shapiro_p_max Wilcoxon_p Cohens_d     p_adj
+        26.10      1.59e-35   2.45e-80  -0.5680  2.94e-79
+       125.00      8.27e-14   3.25e-15   0.2640  3.90e-14
+         7.26      3.16e-42  1.97e-218   1.2500 2.36e-217
+         5.90      4.25e-43  3.99e-274   1.5600 4.79e-273
+         2.55      6.84e-37  7.46e-302   1.3700 8.95e-301
+         1.94      9.12e-41   0.00e+00   1.7700  0.00e+00
+        11.60      7.01e-26   6.12e-01   0.0086  1.00e+00
+
+--- Categorical variables: chi-square test of independence ---
+           Variable              Dropout_rate Chi_sq df   p_value Cramers_V
+             Gender Female 30.2% | Male 56.1%    229  1  8.26e-52     0.251
+ Scholarship holder      No 48.4% | Yes 13.8%    354  1  5.11e-79     0.312
+             Debtor      No 34.5% | Yes 75.5%    257  1  6.14e-58     0.266
+ Tuition up to date      No 94.0% | Yes 30.7%    707  1 9.19e-156     0.441
+             Course              see Figure 3    443 16  3.50e-84     0.349
+ Min_expected     p_adj
+       489.00  9.91e-51
+       379.00  6.13e-78
+       162.00  7.37e-57
+       190.00 1.10e-154
+         3.52  4.20e-83
+
+Pairs with |rho| > 0.7 (possible multicollinearity in the model):
+  1st-sem grade (0-20) ~ 2nd-sem grade (0-20): 0.79
+  2nd-sem grade (0-20) ~ 2nd-sem units passed: 0.71
+  1st-sem units passed ~ 2nd-sem units passed: 0.91

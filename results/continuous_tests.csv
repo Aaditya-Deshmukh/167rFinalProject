@@ -1,0 +1,8 @@
+"Variable","Median_Graduate","Median_Dropout","Mean_Graduate","Mean_Dropout","Shapiro_p_max","Wilcoxon_p","Cohens_d","p_adj"
+"Age at enrollment",19,23,21.8,26.1,1.59e-35,2.45e-80,-0.568,2.94e-79
+"Admission grade (0-200)",127,124,129,125,8.27e-14,3.25e-15,0.264,3.9e-14
+"1st-sem grade (0-20)",13,10.9,12.6,7.26,3.16e-42,1.97e-218,1.25,2.36e-217
+"2nd-sem grade (0-20)",13,0,12.7,5.9,4.25e-43,3.99e-274,1.56,4.79e-273
+"1st-sem units passed",6,2,6.23,2.55,6.84e-37,7.46e-302,1.37,8.94999999999999e-301
+"2nd-sem units passed",6,0,6.18,1.94,9.12e-41,0,1.77,0
+"Unemployment rate (%)",11.1,11.1,11.6,11.6,7.01e-26,0.612,0.0086,1

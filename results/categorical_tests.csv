@@ -1,0 +1,6 @@
+"Variable","Dropout_rate","Chi_sq","df","p_value","Cramers_V","Min_expected","p_adj"
+"Gender","Female 30.2% | Male 56.1%",229,1,8.26e-52,0.251,489,9.91e-51
+"Scholarship holder","No 48.4% | Yes 13.8%",354,1,5.11e-79,0.312,379,6.13e-78
+"Debtor","No 34.5% | Yes 75.5%",257,1,6.14e-58,0.266,162,7.37e-57
+"Tuition up to date","No 94.0% | Yes 30.7%",707,1,9.19e-156,0.441,190,1.1e-154
+"Course","see Figure 3",443,16,3.5e-84,0.349,3.52,4.2e-83
