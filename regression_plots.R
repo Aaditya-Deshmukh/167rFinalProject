@@ -9,7 +9,8 @@
 library(ggplot2)
 library(car)
 
-
+cleaned_data <- read.csv("students_cleaned.csv") # Stores the cleaned data set
+save(cleaned_data, file = "students_cleaned.RData") # Converts the cleaned data set (csv) into a .RData file
 load("students_cleaned.RData")  # creates the object "students" from the cleaned dataset .RData file
 str(students) # Shows the data frame of "students", data type, values
 
